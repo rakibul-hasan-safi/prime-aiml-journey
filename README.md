@@ -9,7 +9,8 @@ I'm learning in public and posting progress on LinkedIn as I go.
 | # | Section | Status | Highlights |
 |---|---------|--------|------------|
 | 03 | [Course Introduction](./03-course-introduction) | ✅ Done | Course roadmap, why Python, setting up VS Code / Anaconda / Jupyter |
-| 04 | Python Fundamentals (Part 1) | ⏳ Up next | |
+| 04 | [Python Fundamentals (Part 1)](./04-python-fundamentals-1) | 🟡 In progress | print, variables, data types, operators, input · 4 programs · assignment 0/4 |
+| 05 | Python Fundamentals (Part 2) | ⏳ Up next | |
 
 ## Roadmap
 
