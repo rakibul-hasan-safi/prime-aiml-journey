@@ -17,14 +17,29 @@ Run any file with:
 python3 01_hello_world.py
 ```
 
-## Assignment problems
+## Assignment 1 · 10/10 solved ✅
 
-| # | Problem | Status |
-|---|---------|--------|
-| Q1 | [Greet with name and age](./problems/q01_greet_name_age.py) | ⏳ |
-| Q2 | [Sum, difference, product, quotient](./problems/q02_basic_calculator.py) | ⏳ |
-| Q3 | [Average of two ints and a float](./problems/q03_average_of_three.py) | ⏳ |
-| Q4 | [String to int, float, and back](./problems/q04_string_conversions.py) | ⏳ |
+| # | Problem | Concept |
+|---|---------|---------|
+| Q1 | [Greet with name and age](./assignment-1/q01_greet_name_age.py) | `input()`, `int()` |
+| Q2 | [Sum, difference, product, quotient](./assignment-1/q02_basic_calculator.py) | Arithmetic operators |
+| Q3 | [Average of two ints and a float](./assignment-1/q03_average_of_three.py) | Casting to `float` |
+| Q4 | [String to int, float, and back](./assignment-1/q04_string_conversions.py) | `int()`, `float()`, `str()`, `type()` |
+| Q5 | [Evaluate `10 + 3 * 2 ** 2`](./assignment-1/q05_operator_precedence.py) | Operator precedence |
+| Q6 | [Swap two numbers](./assignment-1/q06_swap_two_numbers.py) | Temp variable |
+| Q7 | [Celsius to Fahrenheit](./assignment-1/q07_celsius_to_fahrenheit.py) | Formulas with floats |
+| Q8 | [Area of a circle](./assignment-1/q08_area_of_circle.py) | `**` power |
+| Q9 | [Simple interest](./assignment-1/q09_simple_interest.py) | Multi-input math |
+| Q10 | [Integer and fractional part](./assignment-1/q10_integer_and_fractional_part.py) | `int()` truncation |
+
+Each file has the question at the top, my solution, and a sample run.
+
+### Things to improve later
+
+- **Q1:** commas in `print()` add spaces, so the output is `Hello Safi ! You are 23 years old` rather than `Hello Safi, you are 23 years old!`. F-strings, coming later, fix this: `print(f"Hello {name}, you are {age} years old!")`.
+- **Q2:** label each result (`print("Sum:", ...)`) so the output is easy to read.
+- **Q6:** Python can swap in one line: `a, b = b, a`.
+- **Q7 and Q10:** outputs like `523.4000000000001` and `0.5599999999999987` come from how computers store decimals. `round(x, 2)` cleans them up.
 
 ## Key notes
 

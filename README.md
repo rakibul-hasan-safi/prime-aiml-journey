@@ -9,7 +9,7 @@ I'm learning in public and posting progress on LinkedIn as I go.
 | # | Section | Status | Highlights |
 |---|---------|--------|------------|
 | 03 | [Course Introduction](./03-course-introduction) | ✅ Done | Course roadmap, why Python, setting up VS Code / Anaconda / Jupyter |
-| 04 | [Python Fundamentals (Part 1)](./04-python-fundamentals-1) | 🟡 In progress | print, variables, data types, operators, input · 4 programs · assignment 0/4 |
+| 04 | [Python Fundamentals (Part 1)](./04-python-fundamentals-1) | ✅ Done | print, variables, data types, operators, input · 4 programs · assignment 10/10 |
 | 05 | Python Fundamentals (Part 2) | ⏳ Up next | |
 
 ## Roadmap
@@ -27,8 +27,8 @@ I'm learning in public and posting progress on LinkedIn as I go.
 NN-section-name/
 ├── README.md        what the section covers + key notes
 ├── 01_topic.py      lesson code, one file per concept
-└── problems/
-    └── q01_name.py  problem statement on top, my solution below
+└── assignment-1/
+    └── q01_name.py  problem statement on top, my solution + sample run below
 ```
 
 ## Tools
