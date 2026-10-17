@@ -5,9 +5,9 @@ positive or negative until the user enters "Quit".
 
 while True:
     n = (input("Enter the number: "))
-    if n == "quit":
-        print("Lets start again")
-        continue
+    if n == "Quit" or n == "quit":
+        print("Goodbye!")
+        break
     number = int(n)
     if number < 0:
         print("The number is Negative")
@@ -19,6 +19,9 @@ while True:
 # The number is Negative
 # Enter the number: 20
 # The number is Positive
-# Enter the number: quit
-# Lets start again
-# Enter the number:
+# Enter the number: Quit
+# Goodbye!
+
+# Fix: the first version used `continue`, which jumps back to the top of the
+# loop, so the program never ended. Typing "Quit" also crashed on int("Quit").
+# `break` exits the loop, and both spellings are now accepted.

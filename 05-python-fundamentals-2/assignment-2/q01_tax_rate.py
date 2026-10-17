@@ -10,11 +10,20 @@ salary = float(input("Enter your Salary: "))
 
 if salary < 30000:
     print("Final Tax Rate is 5%")
-elif salary >= 30000 or salary <= 70000:
+elif salary >= 30000 and salary <= 70000:
     print("Final Tax Rate is 15%")
 else:
     print("Final Tax Rate is 25%")
 
-# Sample run:
+# Sample runs:
+# Enter your Salary: 25000
+# Final Tax Rate is 5%
+#
 # Enter your Salary: 33000
 # Final Tax Rate is 15%
+#
+# Enter your Salary: 100000
+# Final Tax Rate is 25%
+
+# Fix: the first version used `or`, which is True for every salary,
+# so the 25% branch never ran. A range needs both conditions -> `and`.
