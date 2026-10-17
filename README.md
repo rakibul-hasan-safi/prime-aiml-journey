@@ -10,7 +10,8 @@ I'm learning in public and posting progress on LinkedIn as I go.
 |---|---------|--------|------------|
 | 03 | [Course Introduction](./03-course-introduction) | ✅ Done | Course roadmap, why Python, setting up VS Code / Anaconda / Jupyter |
 | 04 | [Python Fundamentals (Part 1)](./04-python-fundamentals-1) | ✅ Done | print, variables, data types, operators, input · 4 programs · assignment 10/10 |
-| 05 | Python Fundamentals (Part 2) | ⏳ Up next | |
+| 05 | [Python Fundamentals (Part 2)](./05-python-fundamentals-2) | ✅ Done | conditionals, loops, range(), functions, lambda · assignment 10/10 (2 to fix) |
+| 06 | Python Fundamentals (Part 3) | ⏳ Up next | |
 
 ## Roadmap
 
@@ -27,7 +28,7 @@ I'm learning in public and posting progress on LinkedIn as I go.
 NN-section-name/
 ├── README.md        what the section covers + key notes
 ├── 01_topic.py      lesson code, one file per concept
-└── assignment-1/
+└── assignment-N/
     └── q01_name.py  problem statement on top, my solution + sample run below
 ```
 
