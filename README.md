@@ -11,7 +11,9 @@ I'm learning in public and posting progress on LinkedIn as I go.
 | 03 | [Course Introduction](./03-course-introduction) | ✅ Done | Course roadmap, why Python, setting up VS Code / Anaconda / Jupyter |
 | 04 | [Python Fundamentals (Part 1)](./04-python-fundamentals-1) | ✅ Done | print, variables, data types, operators, input · 4 programs · assignment 10/10 |
 | 05 | [Python Fundamentals (Part 2)](./05-python-fundamentals-2) | ✅ Done | conditionals, loops, range(), functions, lambda · assignment 10/10 |
-| 06 | Python Fundamentals (Part 3) | ⏳ Up next | |
+| 06 | Python Fundamentals (Part 3) | ⏳ Pending | |
+| 37 | [Terminal](./37-terminal) | ✅ Done | pwd, ls, cd, paths, mkdir, flags, touch, rm · command cheat sheet |
+| 38 | Git & GitHub | ⏳ Up next | |
 
 ## Roadmap
 
@@ -34,4 +36,4 @@ NN-section-name/
 
 ## Tools
 
-Python 3 · VS Code · Anaconda · Jupyter
+Python 3 · VS Code · Anaconda · Jupyter · Terminal (zsh)
